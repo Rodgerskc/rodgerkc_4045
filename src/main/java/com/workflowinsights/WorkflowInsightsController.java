@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WorkflowInsightsController {
-	@RequestMapping("/start")
+	@RequestMapping("/index")
 	
 	public String start() {
-		return "start";
+		return "index";
 	}
 }
